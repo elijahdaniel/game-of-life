@@ -12,5 +12,6 @@ export const gridColors = ({ grid, i, j, color }) => {
     // marginTop: 2,
     backgroundColor: grid[i][j] ? color : undefined,
     border: 'solid 1px #ccc',
+    // transition: '.1s ease',
   }
 }
